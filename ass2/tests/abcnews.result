@@ -1,0 +1,16 @@
+2,3c2,3
+< council	3
+< insurance	2
+---
+> council    3
+> insurance    2
+5,6c5,6
+< cowboys	2
+< eels	2
+---
+> cowboys    2
+> eels    2
+8c8
+< coronavirus	3
+---
+> coronavirus    3
