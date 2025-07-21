@@ -1,0 +1,151 @@
+{
+  "arch": "x86_64",
+  "build": "hdbd6064_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "aws-c-common >=0.11.1,<0.11.2.0a0",
+    "libgcc-ng >=11.2.0",
+    "openssl >=3.0.16,<4.0a0"
+  ],
+  "extracted_package_dir": "/home/nadserver/.conda/pkgs/aws-c-cal-0.8.5-hdbd6064_0",
+  "files": [
+    "include/aws/cal/cal.h",
+    "include/aws/cal/ecc.h",
+    "include/aws/cal/ed25519.h",
+    "include/aws/cal/exports.h",
+    "include/aws/cal/hash.h",
+    "include/aws/cal/hmac.h",
+    "include/aws/cal/rsa.h",
+    "include/aws/cal/symmetric_cipher.h",
+    "lib/cmake/aws-c-cal/aws-c-cal-config.cmake",
+    "lib/cmake/aws-c-cal/modules/Findcrypto.cmake",
+    "lib/cmake/aws-c-cal/shared/aws-c-cal-targets-release.cmake",
+    "lib/cmake/aws-c-cal/shared/aws-c-cal-targets.cmake",
+    "lib/libaws-c-cal.so",
+    "lib/libaws-c-cal.so.1.0.0"
+  ],
+  "fn": "aws-c-cal-0.8.5-hdbd6064_0.conda",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "/home/nadserver/.conda/pkgs/aws-c-cal-0.8.5-hdbd6064_0",
+    "type": 1
+  },
+  "md5": "35a715fa1c6ed263e59fd92fe288f0f9",
+  "name": "aws-c-cal",
+  "package_tarball_full_path": "/home/nadserver/.conda/pkgs/aws-c-cal-0.8.5-hdbd6064_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/aws/cal/cal.h",
+        "path_type": "hardlink",
+        "sha256": "301f724813b9bce45dfd42831e45ef8129f52ba83eb85683fe17c67d6a54a6e7",
+        "sha256_in_prefix": "301f724813b9bce45dfd42831e45ef8129f52ba83eb85683fe17c67d6a54a6e7",
+        "size_in_bytes": 1782
+      },
+      {
+        "_path": "include/aws/cal/ecc.h",
+        "path_type": "hardlink",
+        "sha256": "822a988449d800cc9d5ea03f98ae953d8cbdaab491387d91d342a11bc7985f1f",
+        "sha256_in_prefix": "822a988449d800cc9d5ea03f98ae953d8cbdaab491387d91d342a11bc7985f1f",
+        "size_in_bytes": 7205
+      },
+      {
+        "_path": "include/aws/cal/ed25519.h",
+        "path_type": "hardlink",
+        "sha256": "2c795adc5ffe79c4472d19b971e029d6f7a2f9146fde512f9fafdacd820cd087",
+        "sha256_in_prefix": "2c795adc5ffe79c4472d19b971e029d6f7a2f9146fde512f9fafdacd820cd087",
+        "size_in_bytes": 3136
+      },
+      {
+        "_path": "include/aws/cal/exports.h",
+        "path_type": "hardlink",
+        "sha256": "2bcff629c0d04c36e6f94567e6c31d8a3fbffebfe921fd5115c272324061774e",
+        "sha256_in_prefix": "2bcff629c0d04c36e6f94567e6c31d8a3fbffebfe921fd5115c272324061774e",
+        "size_in_bytes": 1004
+      },
+      {
+        "_path": "include/aws/cal/hash.h",
+        "path_type": "hardlink",
+        "sha256": "6aca7dcddabef300c3aca0d56b5709c8c62706a93c2e5da39bd5239ccafc78fd",
+        "sha256_in_prefix": "6aca7dcddabef300c3aca0d56b5709c8c62706a93c2e5da39bd5239ccafc78fd",
+        "size_in_bytes": 4969
+      },
+      {
+        "_path": "include/aws/cal/hmac.h",
+        "path_type": "hardlink",
+        "sha256": "bc7a78f5b81c380829800ff5c291f82f426377358ea6ad512f12e96c8c2fba3f",
+        "sha256_in_prefix": "bc7a78f5b81c380829800ff5c291f82f426377358ea6ad512f12e96c8c2fba3f",
+        "size_in_bytes": 3082
+      },
+      {
+        "_path": "include/aws/cal/rsa.h",
+        "path_type": "hardlink",
+        "sha256": "fa9fd6e62c4b979a097fc124123f6c098f88a810686a0eff8cc8bf69093d8ccc",
+        "sha256_in_prefix": "fa9fd6e62c4b979a097fc124123f6c098f88a810686a0eff8cc8bf69093d8ccc",
+        "size_in_bytes": 5584
+      },
+      {
+        "_path": "include/aws/cal/symmetric_cipher.h",
+        "path_type": "hardlink",
+        "sha256": "4fab73d600934f340973cb701f282527f422a9bf51674cd2b116e669afa857ec",
+        "sha256_in_prefix": "4fab73d600934f340973cb701f282527f422a9bf51674cd2b116e669afa857ec",
+        "size_in_bytes": 11885
+      },
+      {
+        "_path": "lib/cmake/aws-c-cal/aws-c-cal-config.cmake",
+        "path_type": "hardlink",
+        "sha256": "a1be9d3a6bcf14219d08ae0f094e0dc4b60c212d88bac3f50c07e8ba08e63b58",
+        "sha256_in_prefix": "a1be9d3a6bcf14219d08ae0f094e0dc4b60c212d88bac3f50c07e8ba08e63b58",
+        "size_in_bytes": 1112
+      },
+      {
+        "_path": "lib/cmake/aws-c-cal/modules/Findcrypto.cmake",
+        "path_type": "hardlink",
+        "sha256": "ba500924e3cd11a3260dfba55a39f8c01a56325de9c9fcaf34ccc62475e0de32",
+        "sha256_in_prefix": "ba500924e3cd11a3260dfba55a39f8c01a56325de9c9fcaf34ccc62475e0de32",
+        "size_in_bytes": 4370
+      },
+      {
+        "_path": "lib/cmake/aws-c-cal/shared/aws-c-cal-targets-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "53eeabfac8f8f3f03fe00b95ec03e2eed21d66dfc0285db915338b62138da988",
+        "sha256_in_prefix": "53eeabfac8f8f3f03fe00b95ec03e2eed21d66dfc0285db915338b62138da988",
+        "size_in_bytes": 863
+      },
+      {
+        "_path": "lib/cmake/aws-c-cal/shared/aws-c-cal-targets.cmake",
+        "path_type": "hardlink",
+        "sha256": "08ea2b32a4bc0180dbc658b2c3024b16d99ddf02e1cacedcbeb40ed6849970c2",
+        "sha256_in_prefix": "08ea2b32a4bc0180dbc658b2c3024b16d99ddf02e1cacedcbeb40ed6849970c2",
+        "size_in_bytes": 4328
+      },
+      {
+        "_path": "lib/libaws-c-cal.so",
+        "path_type": "softlink",
+        "sha256": "cb645ead7beffd39bae812180e4e9787cbc508175f095d99d37abbaecdd818de",
+        "size_in_bytes": 108736
+      },
+      {
+        "_path": "lib/libaws-c-cal.so.1.0.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/croot/aws-c-cal_1741619271328/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "cb645ead7beffd39bae812180e4e9787cbc508175f095d99d37abbaecdd818de",
+        "sha256_in_prefix": "26d2a3507ba939de85540351b1b2163d11794f0521c76747c9d2b001db0c32ea",
+        "size_in_bytes": 108736
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "defaults/linux-64::aws-c-cal==0.8.5=hdbd6064_0",
+  "sha256": "8aac9056d50795e4f10c11ad9263c13e12df991dd1fd29998a9d2b8dc4afaee8",
+  "size": 49480,
+  "subdir": "linux-64",
+  "timestamp": 1741619298000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/aws-c-cal-0.8.5-hdbd6064_0.conda",
+  "version": "0.8.5"
+}

@@ -1,0 +1,146 @@
+{
+  "arch": "x86_64",
+  "build": "h5eee18b_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "aws-c-cal >=0.8.5,<0.8.6.0a0",
+    "aws-c-common >=0.11.1,<0.11.2.0a0",
+    "aws-c-http >=0.9.3,<0.9.4.0a0",
+    "aws-c-io >=0.17.0,<0.17.1.0a0",
+    "aws-c-sdkutils >=0.2.3,<0.2.4.0a0",
+    "libgcc-ng >=11.2.0"
+  ],
+  "extracted_package_dir": "/home/nadserver/.conda/pkgs/aws-c-auth-0.8.5-h5eee18b_0",
+  "files": [
+    "include/aws/auth/auth.h",
+    "include/aws/auth/aws_imds_client.h",
+    "include/aws/auth/credentials.h",
+    "include/aws/auth/exports.h",
+    "include/aws/auth/signable.h",
+    "include/aws/auth/signing.h",
+    "include/aws/auth/signing_config.h",
+    "include/aws/auth/signing_result.h",
+    "lib/cmake/aws-c-auth/aws-c-auth-config.cmake",
+    "lib/cmake/aws-c-auth/shared/aws-c-auth-targets-release.cmake",
+    "lib/cmake/aws-c-auth/shared/aws-c-auth-targets.cmake",
+    "lib/libaws-c-auth.so",
+    "lib/libaws-c-auth.so.1.0.0"
+  ],
+  "fn": "aws-c-auth-0.8.5-h5eee18b_0.conda",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "/home/nadserver/.conda/pkgs/aws-c-auth-0.8.5-h5eee18b_0",
+    "type": 1
+  },
+  "md5": "4f458669d2bb497af4d83d1e7fe81124",
+  "name": "aws-c-auth",
+  "package_tarball_full_path": "/home/nadserver/.conda/pkgs/aws-c-auth-0.8.5-h5eee18b_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/aws/auth/auth.h",
+        "path_type": "hardlink",
+        "sha256": "c1c4bdb46b666663d123a74c25d25da64a56f57a5314160afb38f8b532ca520e",
+        "sha256_in_prefix": "c1c4bdb46b666663d123a74c25d25da64a56f57a5314160afb38f8b532ca520e",
+        "size_in_bytes": 3205
+      },
+      {
+        "_path": "include/aws/auth/aws_imds_client.h",
+        "path_type": "hardlink",
+        "sha256": "1e477ce6d2fcb161ed29f8b6eb7dedc3e0a223a3a6f9fd9e7ab7de88721abd62",
+        "sha256_in_prefix": "1e477ce6d2fcb161ed29f8b6eb7dedc3e0a223a3a6f9fd9e7ab7de88721abd62",
+        "size_in_bytes": 17479
+      },
+      {
+        "_path": "include/aws/auth/credentials.h",
+        "path_type": "hardlink",
+        "sha256": "ccbfae594bc3b7abadc9f3579055f4a9f844eddc2f6b560d6bb40445a1689c56",
+        "sha256_in_prefix": "ccbfae594bc3b7abadc9f3579055f4a9f844eddc2f6b560d6bb40445a1689c56",
+        "size_in_bytes": 45637
+      },
+      {
+        "_path": "include/aws/auth/exports.h",
+        "path_type": "hardlink",
+        "sha256": "283982d87ad7d36eb6538cb9ef282f0d95a9fa5af73287f48b673d1da90ae625",
+        "sha256_in_prefix": "283982d87ad7d36eb6538cb9ef282f0d95a9fa5af73287f48b673d1da90ae625",
+        "size_in_bytes": 919
+      },
+      {
+        "_path": "include/aws/auth/signable.h",
+        "path_type": "hardlink",
+        "sha256": "3ee67dbb4ac736584d92775d72ca5f768277fcc80d5f31bbd93ffd6aaa3b8c7b",
+        "sha256_in_prefix": "3ee67dbb4ac736584d92775d72ca5f768277fcc80d5f31bbd93ffd6aaa3b8c7b",
+        "size_in_bytes": 8518
+      },
+      {
+        "_path": "include/aws/auth/signing.h",
+        "path_type": "hardlink",
+        "sha256": "833ae094420c3dd66c012790bea45938a37f49240ca3673265ec8bf861404815",
+        "sha256_in_prefix": "833ae094420c3dd66c012790bea45938a37f49240ca3673265ec8bf861404815",
+        "size_in_bytes": 5383
+      },
+      {
+        "_path": "include/aws/auth/signing_config.h",
+        "path_type": "hardlink",
+        "sha256": "0377237be7b9a0440b53dcd3b89b471f017af9d7706401df3d14dbd0c81342ca",
+        "sha256_in_prefix": "0377237be7b9a0440b53dcd3b89b471f017af9d7706401df3d14dbd0c81342ca",
+        "size_in_bytes": 10863
+      },
+      {
+        "_path": "include/aws/auth/signing_result.h",
+        "path_type": "hardlink",
+        "sha256": "7fea744cad6d07f0e976d366836486455b70074afe5e6197b4f3403778277bff",
+        "sha256_in_prefix": "7fea744cad6d07f0e976d366836486455b70074afe5e6197b4f3403778277bff",
+        "size_in_bytes": 5830
+      },
+      {
+        "_path": "lib/cmake/aws-c-auth/aws-c-auth-config.cmake",
+        "path_type": "hardlink",
+        "sha256": "4137ae92d4ff115e1d563a8ab38cd2c67a2791f9404b684f8106d1c7555cd0d9",
+        "sha256_in_prefix": "4137ae92d4ff115e1d563a8ab38cd2c67a2791f9404b684f8106d1c7555cd0d9",
+        "size_in_bytes": 682
+      },
+      {
+        "_path": "lib/cmake/aws-c-auth/shared/aws-c-auth-targets-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "5c412d122b06c7936e260ea19dd66bbf4f909db68d85664719dd893963f615c3",
+        "sha256_in_prefix": "5c412d122b06c7936e260ea19dd66bbf4f909db68d85664719dd893963f615c3",
+        "size_in_bytes": 871
+      },
+      {
+        "_path": "lib/cmake/aws-c-auth/shared/aws-c-auth-targets.cmake",
+        "path_type": "hardlink",
+        "sha256": "380879904bfe11a5b94a576884d16abb1e891561cdaa40603c4dc10ba6838e4d",
+        "sha256_in_prefix": "380879904bfe11a5b94a576884d16abb1e891561cdaa40603c4dc10ba6838e4d",
+        "size_in_bytes": 4334
+      },
+      {
+        "_path": "lib/libaws-c-auth.so",
+        "path_type": "softlink",
+        "sha256": "1ff19deabf6fd0fcaba039f57269d1643f000158a2aaa881ae4a23bba08f7532",
+        "size_in_bytes": 284544
+      },
+      {
+        "_path": "lib/libaws-c-auth.so.1.0.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/croot/aws-c-auth_1741636420131/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "1ff19deabf6fd0fcaba039f57269d1643f000158a2aaa881ae4a23bba08f7532",
+        "sha256_in_prefix": "9ebc3483de25c680c54397850fda20dd1987e5a4a3f08414d970d4efd12ff831",
+        "size_in_bytes": 284544
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "defaults/linux-64::aws-c-auth==0.8.5=h5eee18b_0",
+  "sha256": "f7ffac746a85f245e4c8f7927dff78a228566cb722ad511e703a2f8c2f692a30",
+  "size": 120510,
+  "subdir": "linux-64",
+  "timestamp": 1741636490000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/aws-c-auth-0.8.5-h5eee18b_0.conda",
+  "version": "0.8.5"
+}

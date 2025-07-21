@@ -1,0 +1,126 @@
+{
+  "arch": "x86_64",
+  "build": "h5eee18b_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "aws-c-common >=0.11.1,<0.11.2.0a0",
+    "libgcc-ng >=11.2.0"
+  ],
+  "extracted_package_dir": "/home/nadserver/.conda/pkgs/aws-c-sdkutils-0.2.3-h5eee18b_0",
+  "files": [
+    "include/aws/sdkutils/aws_profile.h",
+    "include/aws/sdkutils/endpoints_rule_engine.h",
+    "include/aws/sdkutils/exports.h",
+    "include/aws/sdkutils/partitions.h",
+    "include/aws/sdkutils/resource_name.h",
+    "include/aws/sdkutils/sdkutils.h",
+    "lib/cmake/aws-c-sdkutils/aws-c-sdkutils-config.cmake",
+    "lib/cmake/aws-c-sdkutils/shared/aws-c-sdkutils-targets-release.cmake",
+    "lib/cmake/aws-c-sdkutils/shared/aws-c-sdkutils-targets.cmake",
+    "lib/libaws-c-sdkutils.so",
+    "lib/libaws-c-sdkutils.so.1.0.0"
+  ],
+  "fn": "aws-c-sdkutils-0.2.3-h5eee18b_0.conda",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "/home/nadserver/.conda/pkgs/aws-c-sdkutils-0.2.3-h5eee18b_0",
+    "type": 1
+  },
+  "md5": "d6bd83fa766ff22f744ab26c674f07fe",
+  "name": "aws-c-sdkutils",
+  "package_tarball_full_path": "/home/nadserver/.conda/pkgs/aws-c-sdkutils-0.2.3-h5eee18b_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/aws/sdkutils/aws_profile.h",
+        "path_type": "hardlink",
+        "sha256": "60278c0ee32e734bb33a827cdf9d32e74d4a6e9e35a4bb14c42ec1f73746eaf9",
+        "sha256_in_prefix": "60278c0ee32e734bb33a827cdf9d32e74d4a6e9e35a4bb14c42ec1f73746eaf9",
+        "size_in_bytes": 7027
+      },
+      {
+        "_path": "include/aws/sdkutils/endpoints_rule_engine.h",
+        "path_type": "hardlink",
+        "sha256": "9ab442fde21ea91d9fa9af88e2d92a6d10cbdb6b4275fcd26ce5dccdf67c6d14",
+        "sha256_in_prefix": "9ab442fde21ea91d9fa9af88e2d92a6d10cbdb6b4275fcd26ce5dccdf67c6d14",
+        "size_in_bytes": 11400
+      },
+      {
+        "_path": "include/aws/sdkutils/exports.h",
+        "path_type": "hardlink",
+        "sha256": "abb481889be585509fd9a24eec006a0fdb94cad8492faab271308325063c0c9c",
+        "sha256_in_prefix": "abb481889be585509fd9a24eec006a0fdb94cad8492faab271308325063c0c9c",
+        "size_in_bytes": 1006
+      },
+      {
+        "_path": "include/aws/sdkutils/partitions.h",
+        "path_type": "hardlink",
+        "sha256": "4795ad4deec1f78e28dd54eaee5d2df1941b7feb8f4fbcc41b4b118d27ea65cb",
+        "sha256_in_prefix": "4795ad4deec1f78e28dd54eaee5d2df1941b7feb8f4fbcc41b4b118d27ea65cb",
+        "size_in_bytes": 1088
+      },
+      {
+        "_path": "include/aws/sdkutils/resource_name.h",
+        "path_type": "hardlink",
+        "sha256": "5c354e658111734d1342f5d6f22875cb40a37c9a22e5c00dcfcb52c595cd84cf",
+        "sha256_in_prefix": "5c354e658111734d1342f5d6f22875cb40a37c9a22e5c00dcfcb52c595cd84cf",
+        "size_in_bytes": 1226
+      },
+      {
+        "_path": "include/aws/sdkutils/sdkutils.h",
+        "path_type": "hardlink",
+        "sha256": "a5526ed98f91d10721616d1d99c90adfa85c910392bb2e191cb7ea2ad5ed70c9",
+        "sha256_in_prefix": "a5526ed98f91d10721616d1d99c90adfa85c910392bb2e191cb7ea2ad5ed70c9",
+        "size_in_bytes": 1827
+      },
+      {
+        "_path": "lib/cmake/aws-c-sdkutils/aws-c-sdkutils-config.cmake",
+        "path_type": "hardlink",
+        "sha256": "11c892bb4fafbe05d49d3e806e9e561831a3f3ca491fa56b232617cc47e7c644",
+        "sha256_in_prefix": "11c892bb4fafbe05d49d3e806e9e561831a3f3ca491fa56b232617cc47e7c644",
+        "size_in_bytes": 573
+      },
+      {
+        "_path": "lib/cmake/aws-c-sdkutils/shared/aws-c-sdkutils-targets-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "aae0ca8ef70f5c7cfc0cb0b5ce7df0848b6865df74dac68ab9e6b242b3798144",
+        "sha256_in_prefix": "aae0ca8ef70f5c7cfc0cb0b5ce7df0848b6865df74dac68ab9e6b242b3798144",
+        "size_in_bytes": 903
+      },
+      {
+        "_path": "lib/cmake/aws-c-sdkutils/shared/aws-c-sdkutils-targets.cmake",
+        "path_type": "hardlink",
+        "sha256": "7366918104be185fd1b10e408e5bdf18377727c1e445b0dd9811b59ea52ff115",
+        "sha256_in_prefix": "7366918104be185fd1b10e408e5bdf18377727c1e445b0dd9811b59ea52ff115",
+        "size_in_bytes": 4325
+      },
+      {
+        "_path": "lib/libaws-c-sdkutils.so",
+        "path_type": "softlink",
+        "sha256": "bafcc7ab8a4c0be8005da559ca66edc51a316376c1d04f9eb93f91154966bf81",
+        "size_in_bytes": 126464
+      },
+      {
+        "_path": "lib/libaws-c-sdkutils.so.1.0.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/croot/aws-c-sdkutils_1741618738205/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "bafcc7ab8a4c0be8005da559ca66edc51a316376c1d04f9eb93f91154966bf81",
+        "sha256_in_prefix": "fb896e29b868f0c0c3c585e2ed14e7e0e0a433ff2d2cd0698227919e35e0ef13",
+        "size_in_bytes": 126464
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "defaults/linux-64::aws-c-sdkutils==0.2.3=h5eee18b_0",
+  "sha256": "689656b4b17efdb05b6ee5079e83f7b027ce643e2d2a0f86687b3521c31c39a3",
+  "size": 55566,
+  "subdir": "linux-64",
+  "timestamp": 1741618764000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/aws-c-sdkutils-0.2.3-h5eee18b_0.conda",
+  "version": "0.2.3"
+}
