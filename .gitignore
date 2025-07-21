@@ -65,4 +65,4 @@ kubernetes/
 licenses/
 python/
 yarn/
-conda/
+sparkenv/
