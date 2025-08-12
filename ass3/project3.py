@@ -5,14 +5,15 @@ from pyspark.sql.functions import *
 from pyspark.sql.types import *
 from operator import add
 
+PREFIX, NUMID, RECID, X, Y, TERMS = 0, 1, 2, 3, 4, 5
+
 def lineParse(line, prefix=''):
     recId, coOrd, terms = line.strip().split('#')
     numId = int(recId[1:])
     x, y = coOrd[1:-1].split(',')
     x, y = float(x), float(y)
-    tokens = set(terms.split())
-
-    parsedLine = (prefix, numId, recId, x, y, tokens)
+    terms = set(terms.split())
+    parsedLine = (prefix, numId, recId, x, y, terms)
     return parsedLine
 
 
@@ -23,6 +24,20 @@ class project3:
         
         rddA = sc.textFile(inputpathA).map(lambda line: lineParse(line, 'A'))
         rddB = sc.textFile(inputpathB).map(lambda line: lineParse(line, 'B'))
+
+        termPairsA = rddA.flatMap(lambda rec: [(term, 1) for term in rec[TERMS]])
+        termPairsB = rddB.flatMap(lambda rec: [(term, 1) for term in rec[TERMS]])
+        termFreqs = termPairsA.union(termPairsB).reduceByKey(add)
+        termFreqsList = termFreqs.collect()
+        
+        termOrder = (termFreqs
+                      .sortBy(lambda pair: (pair[1], pair[0]))
+                      .map(lambda pair: pair[0])
+                      .zipWithIndex()
+                      .map(lambda pair: pair[0])
+                      .collect()
+        )
+        bcTermOrder = sc.broadcast(set(termOrder))
 
 
 if __name__ == '__main__':
