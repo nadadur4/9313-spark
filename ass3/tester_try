@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+spark-submit "project3try.py" in/A_large.in in/B_large.in "out/trylarge$1" 100 0.5

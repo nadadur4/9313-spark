@@ -10,12 +10,13 @@ PREFIX, NUMID, RECID, X, Y, TERMS = 0, 1, 2, 3, 4, 5
 def lineParse(line, prefix=''):
     recId, coOrd, terms = line.strip().split('#')
     numId = int(recId[1:])
-    x, y = coOrd[1:-1].split(',')
+    x, y = coOrd.strip('()').split(',')
     x, y = float(x), float(y)
     terms = set(terms.split())
     parsedLine = (prefix, numId, recId, x, y, terms)
     return parsedLine
 
+def 
 
 class project3:
     def run(self, inputpathA, inputpathB, outputpath, d, s):
@@ -34,7 +35,6 @@ class project3:
                       .sortBy(lambda pair: (pair[1], pair[0]))
                       .map(lambda pair: pair[0])
                       .zipWithIndex()
-                      .map(lambda pair: pair[0])
                       .collect()
         )
         bcTermOrder = sc.broadcast(set(termOrder))

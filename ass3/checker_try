@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+cat "out/trylarge$1"/* > "out/trylarge$1.out"
+diff exp/large.exp "out/trylarge$1.out" -s > "test/trylarge$1.test"
+cat "test/trylarge$1.test"
