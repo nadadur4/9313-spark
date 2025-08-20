@@ -16,6 +16,16 @@ def lineParse(line, prefix=''):
     parsedLine = (prefix, numId, recId, x, y, terms)
     return parsedLine
 
+def add_prefix(rec, bcFreq, s):
+    side, numId, recId, x, y, terms = rec
+    freq = bcFreq.value
+    ordered = sorted(terms, key=lambda t: (freq.get(t, 0), t))
+    n = len(ordered)
+    l = int(math.ceil(n * s))
+    p = n - l + 1 if n > 0 else 0
+    prefix_tokens = ordered[:p]
+    return (side, numId, recId, x, y, set(ordered), tuple(prefix_tokens))
+
 # ### NEW: helpers ###
 def jaccard(a_set, b_set):
     if not a_set and not b_set:
@@ -36,16 +46,6 @@ def neighbor_cells(cx, cy):
     for dx in (-1, 0, 1):
         for dy in (-1, 0, 1):
             yield (cx + dx, cy + dy)
-
-def add_prefix(rec, bcFreq, s):
-    side, numId, recId, x, y, terms = rec
-    freq = bcFreq.value
-    ordered = sorted(terms, key=lambda t: (freq.get(t, 0), t))
-    n = len(ordered)
-    l = int(math.ceil(n * s))
-    p = n - l + 1 if n > 0 else 0
-    prefix_tokens = ordered[:p]
-    return (side, numId, recId, x, y, set(ordered), tuple(prefix_tokens))
 
 def post_A(rec, g):
     side, numId, recId, x, y, termset, preftoks = rec
@@ -83,8 +83,10 @@ def verify(pair, d2, s):
 
 class project3:
     def run(self, inputpathA, inputpathB, outputpath, d, s):
-        d = float(d); s = float(s)                    # ### EDIT ###
-        g = d; d2 = d * d                             # ### NEW ###
+        d = float(d)
+        s = float(s)
+        g = d
+        d2 = d * d
         conf = SparkConf().setAppName("Project3")
         sc = SparkContext(conf=conf)
 
